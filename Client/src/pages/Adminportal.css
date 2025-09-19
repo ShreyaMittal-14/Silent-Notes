@@ -1,0 +1,149 @@
+/* Container */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    /* ✅ New font */
+    background: #f4f6fb;
+    color: #2c3e50;
+}
+
+/* Container */
+.admin-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter', sans-serif;
+    /* ✅ Apply new font */
+}
+
+/* Button to create new post */
+.new-btn {
+    padding: 14px 24px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.25);
+}
+
+.new-btn:hover {
+    background: linear-gradient(135deg, #27ae60, #219150);
+    transform: translateY(-2px);
+}
+
+/* Post list */
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Each post item */
+.post-item {
+    background: #f9fafb;
+    padding: 20px 28px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    transition: all 0.25s ease;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.post-item:hover {
+    transform: translateY(-4px);
+    background: #eef4ff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Post content wrapper */
+.post-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow: hidden;
+}
+
+/* Post title */
+.post-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Author username */
+.post-author {
+    font-size: 15px;
+    color: #6b7280;
+    font-style: italic;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Button group (Edit/Delete) */
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    align-self: center;
+}
+
+.btn-group button {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+/* Edit button */
+.edit-btn {
+    background: #f39c12;
+    color: white;
+    box-shadow: 0 3px 8px rgba(243, 156, 18, 0.3);
+}
+
+.edit-btn:hover {
+    background: #e67e22;
+    transform: translateY(-2px);
+}
+
+/* Delete button */
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    box-shadow: 0 3px 8px rgba(231, 76, 60, 0.3);
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Loader wrapper */
+.loader-wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
