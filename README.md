@@ -1,4 +1,4 @@
-# ✍️ Inkspire  
+# ✍️ Silent Notes
 
 A modern blogging platform inspired by Medium, designed for seamless content creation, reading, and collaboration.  
 Built with **React.js**, **Prisma**, **Redux Toolkit Query**, and **JWT Authentication** for a secure, scalable, and user-friendly experience.  
